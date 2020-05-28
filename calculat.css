@@ -1,0 +1,112 @@
+body 
+{
+      background-color: #606060;
+      background-image: linear-gradient(50deg, #212121, #424242);
+      color: rgba(255, 255, 255, 0.85);
+      padding-top: 1%;
+      height: 90vh;
+      font-family: 'Roboto Mono', monospace;
+      font-family: 'Orbitron', sans-serif; 
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+}
+.container {
+      width: 100%;
+      height:90vh;
+}
+.calculater
+{
+      width:350px;
+      height:559px;
+      background-color:#eaedef;
+      margin: 0 auto;
+      top: 20px;
+      padding:5px;
+      position:relative;
+      border-radius:10px;  
+      box-shadow:0 0 20px 0 ;      
+}
+.result
+{
+      height:150px;
+      background-color:;
+      border-radius:10px;
+      font-family: 'Orbitron', sans-serif;
+      overflow:scroll;        
+}
+#history
+{
+     text-align:right;
+     height: 20px;
+     margin: 0 20px;
+     padding-top:20px;
+     font-size:23px;
+     color:#919191;
+     font-family: 'Roboto Mono', monospace;  
+}
+#Output
+{
+     text-align:right; 
+     height:90px;
+     margin:35px 25px;
+     font-size:49px;
+     font-family: 'Roboto Mono', monospace; 
+}
+.keypad
+{
+      height:300px;
+}
+.operator,.number
+{
+      width:50px;
+      height:50px;
+      margin:15px;
+      font-waight:bold;
+      border-radius:10%;
+      border:none;
+      outline:none;
+      font-size:19px;
+      font-waight:bold;
+}
+.number
+{
+      background-color:#eaedef;
+}
+.operator,.number
+{
+      curser:pointer;
+}
+.operator:active,.number:active
+{
+      font-size:15px;
+      font-waight:bold; 
+}
+.operator:focus,.number:focus
+{
+      outline:0; 
+}
+button:nth-child(4)
+{
+      font-size:20px;
+      background-color:#EFBB11;  
+}
+button:nth-child(8)
+{
+      font-size:20px;
+      background-color:#14E85B;  
+}
+button:nth-child(12)
+{
+      font-size:20px;
+      background-color:#7414E0;  
+}
+button:nth-child(16)
+{
+      font-size:20px;
+      background-color:#9477af;  
+}
+button:nth-child(20)
+{
+      font-size:20px;
+      background-color:#08EDD3;  
+}
